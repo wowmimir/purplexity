@@ -76,10 +76,6 @@ const Auth = () => {
             <h1 className="max-w-[12ch] text-[52px] font-medium leading-[0.98] tracking-[-0.05em] text-[#f4efe6] md:text-[72px]">
               Search-first answers in a Perplexity-style shell.
             </h1>
-            <p className="mt-6 max-w-[560px] text-lg leading-8 text-[#8e8980]">
-              Your backend is already wired. This frontend turns it into a focused research surface with streaming chat,
-              persistent history, and a dark product-first interface.
-            </p>
             <div className="mt-10 grid gap-4 text-sm text-[#b6b1a9] md:grid-cols-3">
               <div className="rounded-[24px] border border-white/8 bg-[#171717] p-5">
                 <div className="text-[#f0ebe1]">Streaming output</div>
@@ -100,10 +96,7 @@ const Auth = () => {
             <div className="mb-8">
               <div className="text-sm uppercase tracking-[0.24em] text-[#807b73]">Sign In</div>
               <h2 className="mt-3 text-3xl font-medium tracking-[-0.04em] text-[#f5f0e6]">Continue to Purplexity</h2>
-              <p className="mt-3 text-sm leading-7 text-[#8a857c]">
-                Use your existing Supabase OAuth providers. Once authenticated, the app opens directly into the new
-                search workspace.
-              </p>
+              
             </div>
 
             <div className="space-y-3">
@@ -128,11 +121,6 @@ const Auth = () => {
                   </Button>
                 );
               })}
-            </div>
-
-            <div className="mt-8 rounded-[24px] border border-white/8 bg-[#131313] px-4 py-4 text-sm leading-7 text-[#807b73]">
-              Current pass keeps the existing auth implementation and focuses on matching the application experience
-              after login.
             </div>
           </section>
         </div>
